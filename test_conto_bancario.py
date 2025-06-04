@@ -1,6 +1,6 @@
 import pytest
 
-from banca.conto_bancario import ContoBancario
+from conto_bancario import ContoBancario
 
 @pytest.fixture #decoratore
 def conto():
